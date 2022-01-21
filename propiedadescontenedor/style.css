@@ -1,0 +1,41 @@
+.contenedor {
+    border: 5px solid #e1bee7;
+    background-color: #fff1ff;
+    display: grid; /* Le dice al contenedor como se va a comportar y en este caso crear grillas*/ 
+
+    /* grid-template-columns: 100px 200px 300px; Aquí, como pusimos 3 tamaños, se crean 3 columnas*/
+    
+    grid-template-rows: 100px 200px; /* modifica el tamaño de la fila, modifica su alto*/ 
+    grid-auto-columns: 100px; /*Se define el tamaño de todas las columnas*/ 
+
+    /*grid-auto-rows: 150px; con esto nuestras filas siempre tienen 150px de alto */ 
+
+    grid-auto-flow: column; /* Crea nuevas columnas en lugar de nuevas filas */ 
+
+    /* row-gap: 15px; define el tamaño de la brecha entre filas que queremos tener*/ 
+
+    /* column-gap: 15px; define el tamaño de la brecha entre las columnas que queremos tener*/ 
+
+    gap: 20px; /* modifica el mismo espaciado tanto en columnas como en filas*/ 
+}
+.item {
+    border: 5px solid lightblue;
+    font-size: 4rem;
+}
+
+/* segundo contenedor */
+.contenedor-2 {
+    border: 5px solid black;
+    background-color: aquamarine;
+    display: grid;
+    grid-template-rows: 100px 100px 100px;
+    grid-template-columns: 90px 90px;
+    grid-auto-flow: column;
+    gap: 20px;
+    text-align: center;
+    
+}
+.item-2 {
+    border: 7px solid pink;
+    font-size: 2rem;
+}
