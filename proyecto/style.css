@@ -5,7 +5,7 @@ main {
     max-width: 1200px;
     margin: 0 auto;
 }
-
+/* primera sección*/ 
 .hero {
     display: grid;
     grid-template-columns: 2fr 3fr;
@@ -21,6 +21,8 @@ main {
 }
 .info h1 {
     font-size: 30px;
+    font-weight: 800;
+    color: #FFAEA9;
 }
 .info button {
     border-radius: 10px;
@@ -35,3 +37,4 @@ main {
     font-size: 15px;
     line-height: 25px;
 }
+/* termina primera sección*/ 
